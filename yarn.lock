@@ -2,5 +2,19 @@
 # yarn lockfile v1
 
 
-"mypackage@file:./mypackage":
-  version "1.0.0"
+emoji-regex@^9.0.0:
+  version "9.0.0"
+  resolved "https://registry.yarnpkg.com/emoji-regex/-/emoji-regex-9.0.0.tgz#48a2309cc8a1d2e9d23bc6a67c39b63032e76ea4"
+  integrity sha512-6p1NII1Vm62wni/VR/cUMauVQoxmLVb9csqQlvLz+hO2gk8U2UYDfXHQSUYIBKmZwAKz867IDqG7B+u0mj+M6w==
+
+"extract-email-address@https://github.com/QuentinFarizon/extract-email-address":
+  version "1.4.0"
+  resolved "https://github.com/QuentinFarizon/extract-email-address#159ed042fe5592ce8cd66f0b5c2bce21cf2e6424"
+  dependencies:
+    emoji-regex "^9.0.0"
+    tlds "^1.207.0"
+
+tlds@^1.207.0:
+  version "1.210.0"
+  resolved "https://registry.yarnpkg.com/tlds/-/tlds-1.210.0.tgz#bf9a73cd0c16720e48158abc542311c511ac6fe8"
+  integrity sha512-5bzt4JE+NlnwiKpVW9yzWxuc44m+t2opmPG+eSKDp5V5qdyGvjMngKgBb5ZK8GiheQMbRTCKpRwFJeIEO6pV7Q==

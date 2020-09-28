@@ -5,12 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "NODE_ENV=staging node index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "mypackage": "file:./mypackage"
+    "extract-email-address": "https://github.com/QuentinFarizon/extract-email-address"
   },
   "devDependencies": {
   }
