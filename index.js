@@ -1,3 +1,6 @@
-var mypackage = require('mypackage');
+// var mypackage = require('mypackage');
+//
+// mypackage.printMsg();
 
-mypackage.printMsg();
+console.log("NODE_ENV=")
+console.log(process.env.NODE_ENV)
