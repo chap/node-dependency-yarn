@@ -9,7 +9,7 @@ emoji-regex@^9.0.0:
 
 "extract-email-address@https://github.com/QuentinFarizon/extract-email-address":
   version "1.4.0"
-  resolved "https://github.com/QuentinFarizon/extract-email-address#159ed042fe5592ce8cd66f0b5c2bce21cf2e6424"
+  resolved "https://github.com/QuentinFarizon/extract-email-address#7fe9eb12cd0387b55c1aa924bf05fde54200939b"
   dependencies:
     emoji-regex "^9.0.0"
     tlds "^1.207.0"
