@@ -7,11 +7,22 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
+<<<<<<< Updated upstream
   "author": "",
   "license": "ISC",
   "dependencies": {
     "extract-email-address": "https://github.com/QuentinFarizon/extract-email-address"
   },
+=======
+  "private": true,
+  "workspaces": [
+    "workspace-a"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+>>>>>>> Stashed changes
   "devDependencies": {
+    "webpack": "^5.0.0"
   }
 }
